@@ -33,7 +33,7 @@ function Main() {
           <button type='submit' onClick={submitUser}>Envoyer</button>
         </form>
 
-        <h2>Membres de l'équipage</h2>
+        <h2>Membres De l'équipage</h2>
         <section class='member-list'>
           {characters.map((character) => {
             return (
