@@ -4,14 +4,14 @@ import StyledMain from './style';
 
 function Main() {
   const [characters, setCharacter] = useState([]);
-  const [userFirstname, setUserFirstname] = useState("");
+  const [userFirstname, setUserFirstname] = useState([]);
 
   const submitUser = () => {
     Axios.post('http://localhost:5050/api/insert', {
       userFirstname: userFirstname,
     }).then(()=> {
-      alert('Succesfull new Soldier !')
-    })
+      alert('Succesfull new Soldier !');
+    });
   }
 
   useEffect(() => {
