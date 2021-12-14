@@ -27,12 +27,15 @@ const StyledMain = styled.div`
       padding: 0.25em 0;
 
       ul {
-        display: flex;
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
         height: 30px;
         li {
           list-style: none;
+          margin: 10px 20px;
         }
       }
     }

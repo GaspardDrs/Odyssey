@@ -9,7 +9,7 @@ const StyledFooter = styled.div`
     width: 100%;
     background: #f76c6c;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 50%;
     p {
       color: #fff;
     }
